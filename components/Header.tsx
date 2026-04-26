@@ -10,7 +10,7 @@ export const Header = ({ title, dark = false, rightAccessory }: any) => {
   return (
     <View style={[styles.container, { paddingTop: insets.top + 12 }]}>
       <Image 
-        source={require('../assets/images/icon.png')} 
+        source={require('../assets/wayl-logo.png')} 
         style={styles.avatar} 
       />
       {title ? (
